@@ -1,0 +1,13 @@
+{
+    "name": "mohkari/dont-forget-me",
+    "description": "troll application",
+    "require-dev": {
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+    	"psr-4": {
+      		"Classes\\":"Classes/",
+          "Services\\":"Services/"
+    	}
+  	}
+}
